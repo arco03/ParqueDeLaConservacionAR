@@ -5,24 +5,11 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 </head>
 <body style="margin: 0; overflow: hidden;">
-    <a-scene embedded arjs="trackingMethod: best; sourceType: webcam;">
-        <!-- Define el marcador con tu imagen específica -->
+    <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: true;">
         <a-marker type="pattern" url="LogoParque.patt">
-            <!-- Aquí carga tu modelo 3D (exportado desde Unity) -->
-            <a-entity gltf-model="models/flamenco.gltf" scale="0.5 0.5 0.5" fix-gltf></a-entity>
+            <a-entity gltf-model="models/flamenco.gltf" scale="0.5 0.5 0.5"></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
-    <script>
-        AFRAME.registerComponent('fix-gltf', {
-            init: function () {
-                this.el.addEventListener('model-error', () => {
-                    console.error("Error al cargar el modelo. Verifica:");
-                    console.log("- Que flamenco.bin esté en /models");
-                    console.log("- Que las rutas en flamenco.gltf apunten correctamente a .bin");
-                });
-            }
-        });
-    </script>
 </body>
 </html>
