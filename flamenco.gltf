@@ -1,0 +1,320 @@
+{
+  "asset": {
+    "generator": "UnityGltf 2.16.0-pre.3, Unity 2022.3.14f1, Built-in RP",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "flamenco"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24633,
+      "type": "VEC3",
+      "max": [
+        0.0058458470739424229,
+        0.014579395763576031,
+        0.0094418171793222427
+      ],
+      "min": [
+        -0.0058515714481472969,
+        -0.0146648483350873,
+        -0.014943229965865612
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24633,
+      "type": "VEC3",
+      "max": [
+        0.99995958805084229,
+        0.99993753433227539,
+        0.9995996356010437
+      ],
+      "min": [
+        -0.99999618530273438,
+        -0.99990665912628174,
+        -0.99974662065505981
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24633,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 9852,
+      "type": "SCALAR",
+      "max": [
+        5334.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 16710,
+      "type": "SCALAR",
+      "max": [
+        15360.0
+      ],
+      "min": [
+        206.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 2670,
+      "type": "SCALAR",
+      "max": [
+        17130.0
+      ],
+      "min": [
+        15086.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 9810,
+      "type": "SCALAR",
+      "max": [
+        22814.0
+      ],
+      "min": [
+        16107.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 3024,
+      "type": "SCALAR",
+      "max": [
+        24632.0
+      ],
+      "min": [
+        15067.0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "flamenco.bin",
+      "byteLength": 1069452
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 295596,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 295596,
+      "byteLength": 295596,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 591192,
+      "byteLength": 394128,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 985320,
+      "byteLength": 19704,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1005024,
+      "byteLength": 33420,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1038444,
+      "byteLength": 5340,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1043784,
+      "byteLength": 19620,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1063404,
+      "byteLength": 6048,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.603827536,
+          0.05863391,
+          0.07012695,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Material.014"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.603827536,
+          0.01403824,
+          0.01726685,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Material.010"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.000625056,
+          0.000625056,
+          0.000625056,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Material.012"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0481575467,
+          0.07183442,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Material.011"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274,
+          0.6038274,
+          0.6038274,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Material.013"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2
+          },
+          "indices": 4,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2
+          },
+          "indices": 5,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2
+          },
+          "indices": 6,
+          "material": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2
+          },
+          "indices": 7,
+          "material": 4
+        }
+      ],
+      "name": "flamenco"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        -3.774895E-08,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        185.94043,
+        185.94043,
+        185.94043
+      ],
+      "name": "flamenco"
+    }
+  ]
+}
